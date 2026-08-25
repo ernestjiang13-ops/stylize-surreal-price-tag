@@ -1,0 +1,15 @@
+interface:
+  display_name: 扭曲价签实验室
+  short_description: 出图前只确认扭曲与比例，元素自动不重复随机，价签贴在主体上
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Use $stylize-surreal-price-tag to transform my photo; ask only for
+    distortion level and aspect ratio, automatically choose a nonrepeating surreal
+    element, and paste the price tag directly onto the subject.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
